@@ -16,7 +16,7 @@ SQL queries in the `users` schema are primarily used for segmenting users based 
 
 ## Transaction Data Schema 💳
 
-The `transaction_data` schema is used for analyzing transactional data to detect potential fraudulent activities 🕵️‍♀️. The following columns are inferred from the SQL queries:
+The `transaction_data` schema is used for analyzing transactional data to detect potentially fraudulent activities 🕵️‍♀️. The following columns are inferred from the SQL queries:
 
 - `full_name`: 📛 The full name of the user.
 - `email`: 📧 The email address of the user.
@@ -25,4 +25,4 @@ The `transaction_data` schema is used for analyzing transactional data to detect
 
 SQL queries in the `transaction_data` schema are used to find transactions that match suspicious patterns, such as originating from specific zip codes, associated with certain names, originating from internal-use IP addresses, using temporary email services, etc.
 
-The data was provided by Codecademy as part of the [Data Science Path](https://www.codecademy.com/learn/paths/data-science) course. Althought the tabkes themselves are inaccessible, table prints have been provided in the 'SQL - RPA' folder.
+The data was provided by Codecademy as part of the [Data Science Path](https://www.codecademy.com/learn/paths/data-science) course. Although the tables themselves are inaccessible, table prints have been provided in the 'SQL - RPA' folder.
